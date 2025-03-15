@@ -13,7 +13,7 @@ import "./homepage.css";
 export default class About extends Component {
     render() {
         return (
-            <div style={{ paddingTop: '90px', color: "white", textAlign: "center", fontSize: '1.5rem' }}>
+            <div style={{ paddingTop: '90px', color: "white", textAlign: "center", fontSize: '1.1rem' }}>
                 <h1 style={{ fontSize: "4rem", color: "#5DB9EE" }}>Know About Me!</h1>
                 <div id="about1" className="d-flex space-around" style={{ marginTop: "8rem" }}>
                     <p>Hii Everyone, I am <i style={{ color: "#5DB9EE", fontSize: "1.3rem" }}>Jai Singh</i> from <i style={{ color: "#5DB9EE", fontSize: "1.3rem" }}>Uttarakhand</i>, India.<br />As a recent <i style={{ color: "#5DB9EE", fontSize: "1.3rem" }}>Computer Science</i> graduate with a strong foundation in <i style={{ color: "#5DB9EE", fontSize: "1.3rem" }}>Maths </i> and <i style={{ color: "#5DB9EE", fontSize: "1.3rem" }}>Statistics,</i><br /> I'm excited to launch my career in the IT sector as a <i style={{ color: "#5DB9EE", fontSize: "1.3rem" }}>Front-end Web Developer.</i>

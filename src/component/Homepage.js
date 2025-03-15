@@ -17,7 +17,7 @@ function Homepage() {
             <h1 className="intro" style={{ fontSize: "4rem", color: "#fff", marginLeft: "40px" }}>
                 Hii There<span className="wave" role="img" aria-labelledby="wave" style={{fontSize:"4rem"}}>👋🏻</span><br/><span style={{fontSize: "4rem" }}> I'm <strong style={{ color: "#5DB9EE", fontSize: "4rem" }}>Jai Singh</strong></span>
             </h1>
-            <p style={{ color: "#5DB9EE", marginLeft: "40px" }}>
+            <p style={{ color: "#5DB9EE", marginLeft: "40px" ,fontSize:"2rem"}}>
                 <Type />
             </p>
 

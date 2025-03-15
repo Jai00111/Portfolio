@@ -40,8 +40,8 @@ export default function ContactMe() {
 
                     }}>
                         <h1 style={{ boxShadow: "none", pointerEvents: "none", color: "#5DB9EE" }}><strong >Jai Singh</strong></h1>
-                        <img src={backhand} alt="" style={{ height: "30px", width: "40px", boxShadow: "none", pointerEvents: "none" }}></img><strong style={{ boxShadow: "none", pointerEvents: "none" }}>Email.id--</strong><strong style={{ boxShadow: "none", pointerEvents: "none", color: "#5DB9EE" }}>jaibisht234@gmail.com</strong>
-                        <img src={backhand} alt="" style={{ height: "30px", width: "40px", boxShadow: "none", pointerEvents: "none" }}></img><strong style={{ boxShadow: "none", pointerEvents: "none" }}>Mob.No--</strong><strong style={{ boxShadow: "none", pointerEvents: "none", color: "#5DB9EE" }}>7251916265</strong>
+                        <strong>Email.id--</strong><div style={{display:"flex", flexDirection:"row"}}><img src={backhand} alt="" style={{ height: "30px", width: "40px", boxShadow: "none", pointerEvents: "none" }}></img><strong style={{ boxShadow: "none", pointerEvents: "none", color: "#5DB9EE" }}>jaibisht234@gmail.com</strong></div>
+                        <strong>Mob.No--</strong><div style={{display:"flex", flexDirection:"row"}}><img src={backhand} alt="" style={{ height: "30px", width: "40px", boxShadow: "none", pointerEvents: "none" }}></img><strong style={{ boxShadow: "none", pointerEvents: "none", color: "#5DB9EE" }}>7251916265</strong></div>
                     </div>
                     </div>
                     <div style={{
