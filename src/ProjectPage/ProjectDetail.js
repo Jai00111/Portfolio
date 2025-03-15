@@ -35,7 +35,7 @@ function ProjectDetails() {
                         website.
                     </p>
                 </div>
-                <a href="http/home" className="btn btn-dark btn-sm" style={{width:"200px", margin:"0 auto"}}> view in Github </a>
+                <a href="https://github.com/Jai00111/Portfolio" className="btn btn-dark btn-sm" style={{width:"200px", margin:"0 auto"}}> view in Github </a>
             </div>
 
             <div  style={{ display:"flex",flexDirection:"column", justifyContent:"center" , gap:"10px", border:"1px solid white", height:"600px", width:"400px", transition: "box-shadow 0.3s ease-in",
