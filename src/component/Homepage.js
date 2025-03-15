@@ -47,7 +47,7 @@ function Homepage() {
                 <p>My field of Interest's are building new<i style={{ color: "#5DB9EE", fontStyle: "italic" }}> Web Technologies and Product</i> and also in areas related to <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>Blockchain.</i> </p>
                 <p>Whether possible, I also apply my passion for developing products with<i style={{ color: "#5DB9EE", fontStyle: "italic" }}> Node.js </i>and <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>Javascript Library and Framework </i>like <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>React.js</i></p>
                 <div>
-                    <img src={require('./jaiportfolio.jpg')} alt="" className="image-hover" style={{ opacity: ".9", transition: "box-shadow 0.3s ease-in",
+                    <img src={require('./jaiportfolio.jpg')} alt="" className="image-hover" style={{ opacity: ".7", transition: "box-shadow 0.3s ease-in",
                         boxShadow: "0 0 0rem #fff, inset 0 0 0rem #fff, 0 0 0rem #3877FF, inset 0 0 0rem #3877FF"
                     }}
                         onMouseOver={(e) => {
@@ -55,12 +55,19 @@ function Homepage() {
                         }}
                         onMouseOut={(e) => {
                             e.target.style.boxShadow = "0 0 0rem #fff, inset 0 0 0rem #fff, 0 0 0rem #3877FF, inset 0 0 0rem #3877FF"; }} /></div>
-                <div style={{ textAlign: "left", marginLeft: "100px" }}> <button type="button" className="btn" style={{backgroundColor:"blue", color:"white"}}onClick={handleResumeClick} >
+                <div style={{ textAlign: "left", marginLeft: "100px" }}> <button type="button" className="btn" style={{backgroundColor:"blue", color:"white",  transition: "box-shadow 0.3s ease-in",
+                        boxShadow: "0 0 0rem #fff, inset 0 0 0rem #fff, 0 0 0rem #3877FF, inset 0 0 0rem #3877FF"
+                    }}
+                        onMouseOver={(e) => {
+                            e.target.style.boxShadow = "0 0 1rem #fff, inset 0 0 1rem #fff, 0 0 2rem #3877FF, inset 0 0 2rem #3877FF";
+                        }}
+                        onMouseOut={(e) => {
+                            e.target.style.boxShadow = "0 0 0rem #fff, inset 0 0 0rem #fff, 0 0 0rem #3877FF, inset 0 0 0rem #3877FF";}}onClick={handleResumeClick} >
                     View Resume
                 </button></div>
             </div>
             <div style={{ textAlign: "center", color: "white", marginTop: "20px", fontSize: "1.3rem" }}>
-                <h1 style={{ color: "#5DB9EE", fontSize: "4rem" }}> FIND ME ON</h1>
+               
                 <p>Fell free to <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>connect</i> with me</p>
             </div>
                        
