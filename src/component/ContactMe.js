@@ -2,7 +2,7 @@ import React from "react";
 import Contact from "./contactimg.svg"
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import backhand from "../backhandPointer.svg";
+import backhand from "./backhandPointer.svg";
 import "./style.css"
 export default function ContactMe() {
     return (
