@@ -1,0 +1,53 @@
+.image-hover{
+     border-radius: 50%;
+     height: 500px;
+     width: 500px;
+     opacity: ".7";
+     transition: box-shadow 0.3s ease-in;
+     box-shadow: 0 0 0rem #fff, inset 0 0 0rem #fff, 0 0 0rem #3877FF, inset 0 0 0rem #3877FF;
+}
+.image-hover:hover {
+    box-shadow: 0 0 1rem #fff, inset 0 0 1rem #fff, 0 0 2rem #3877FF, inset 0 0 2rem #3877FF;
+  }
+.btn{
+    background-color:blue;
+    color:white;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .firstdiv{
+        text-align: center;
+         padding-top: 30px;
+         color: white;
+         font-size: 1.1rem
+  }
+  .seconddiv{
+     text-align: center;
+     color: white;
+     margin-top: 20px;
+     font-size: 1.3rem 
+  }
+  @media only screen and (max-width: 500px) {
+    .image-hover {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+    }
+    .btn{
+       justify-content: center;
+    }
+    .Enthusiastic{
+      display: flex;
+      flex-direction: column;
+    }
+    #about1{
+      display: flex;
+      flex-direction: column;
+    }
+    #about2{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
