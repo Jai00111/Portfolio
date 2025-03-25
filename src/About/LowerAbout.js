@@ -5,6 +5,7 @@ import cpp from "./cpp.svg"
 import react from "./react.svg"
 import python from "./python.svg"
 import vs from "./vs.svg"
+import Mongodb from "./Mongodb.svg"
 export default function LowerAbout(){
     return(
         <div  style={{ paddingTop: '90px', color: "white", textAlign: "center", fontSize: '1.1rem', marginBottom:"20px" }}>
@@ -25,6 +26,9 @@ export default function LowerAbout(){
                     <CodeIcon codeIcon={cpp}/>
                     <CodeIcon codeIcon={react}/>
                     <CodeIcon codeIcon={python}/>
+                    <CodeIcon codeIcon={Mongodb}/>
+                    
+
                     
                 </div>
                 <div style={{

@@ -13,7 +13,7 @@ export default function codeIcon({codeIcon}){
                         onMouseOut={(e) => {
                             e.target.style.boxShadow = "0 0 0rem #fff, inset 0 0 0rem #fff, 0 0 0rem #3877FF, inset 0 0 0rem #3877FF";
                         }}>
-                        <img src={codeIcon} alt="" style={{ marginTop: "30px", boxShadow: "none", pointerEvents: "none" }}></img>
+                        <img src={codeIcon} alt="" style={{ marginTop: "30px", boxShadow: "none", pointerEvents: "none"}}></img>
                     </div>
         </>
     )
