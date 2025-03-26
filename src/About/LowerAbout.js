@@ -23,7 +23,6 @@ export default function LowerAbout(){
 
                     <CodeIcon codeIcon={jslogo}/>
                     <CodeIcon codeIcon={nodejs}/>
-                    <CodeIcon codeIcon={cpp}/>
                     <CodeIcon codeIcon={react}/>
                     <CodeIcon codeIcon={python}/>
                     <CodeIcon codeIcon={Mongodb}/>
