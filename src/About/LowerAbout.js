@@ -6,6 +6,7 @@ import react from "./react.svg"
 import python from "./python.svg"
 import vs from "./vs.svg"
 import Mongodb from "./Mongodb.svg"
+import Vercel from"./Vercel.svg"
 export default function LowerAbout(){
     return(
         <div  style={{ paddingTop: '90px', color: "white", textAlign: "center", fontSize: '1.1rem', marginBottom:"20px" }}>
@@ -40,6 +41,7 @@ export default function LowerAbout(){
                 >
                     <h1 className="project-heading" style={{ fontSize: "3rem", marginTop: "50px" }}><strong style={{ color: "#5DB9EE", fontSize: "3rem" }}>Tool </strong>I use</h1>
                     <CodeIcon codeIcon={vs}/>
+                    <CodeIcon codeIcon={Vercel}/>
                     </div>
                 
         </div>
