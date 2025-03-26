@@ -6,7 +6,7 @@ import contact from "../contact.svg"
 import { Link} from 'react-router-dom';
 export default function Navbar() {
     return (
-        <nav  className="navbar navbar-expand-lg text-white bg-transparent" style={{position:"fixed" , width:"100%", backdropFilter: "blur(10px)"}}>
+        <nav  className="navbar navbar-expand-lg text-white bg-transparent" style={{position:"fixed" , width:"100%", backdropFilter: "blur(10px) ", zIndex:"1"}}>
             <div className="container-fluid text-white" style={{color:"white"}}>
                 <Link className="navbar-brand" to="/" style={{color:"white"}} aria-disabled>PORTFOLIO</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style={{color: "white"}}>
