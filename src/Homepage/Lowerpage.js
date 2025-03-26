@@ -12,7 +12,7 @@ export default function Lowerpage() {
                 <p>My field of Interest's are building new<i style={{ color: "#5DB9EE", fontStyle: "italic" }}> Web Technologies and Product</i> and also in areas related to <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>Blockchain.</i> </p>
                 <p>Whether possible, I also apply my passion for developing products with<i style={{ color: "#5DB9EE", fontStyle: "italic" }}> Node.js </i>and <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>Javascript Library and Framework </i>like <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>React.js</i></p>
                 
-                    <img src={require('./jaiportfolio.jpg')} alt="" className="image-hover" style={{margin:"40px"}} />
+                    <img src={require('./Introduce.png')} alt="" className="image-hover" style={{margin:"40px"}} />
 
             </div>
             <button className="btn" onClick={handleResumeClick} style={{

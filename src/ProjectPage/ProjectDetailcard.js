@@ -23,7 +23,8 @@ export default function ProjectDetailcard({ProjectImage,ProjectName,Projectdetai
                         {Projectdetail}
                     </p>
                 </div>
-                <a href={gitUrl} className="btn btn-dark btn-sm" style={{width:"200px", margin:"0 auto"}}> view in Github </a>
+                <a type="button" class="btn btn-dark btn-sm" href={gitUrl} style={{width:"200px", margin:"0 auto",backgroundColor:"black"}} > view in Github</a>
+                
             </div>
         </>
     )
