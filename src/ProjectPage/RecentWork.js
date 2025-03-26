@@ -9,7 +9,7 @@ function RecentWork() {
                     I'm a <i style={{ color: "#5DB9EE" }}>MERN-stack developer </i>
                     with experience in building web applications using React and Node.js.{" "}
                     <br></br>
-                    Here is my Projects which I have build using MERN-Stack
+                    Here are my Projects which I have build using MERN-Stack
                 </p>
             </div>
         </div>
