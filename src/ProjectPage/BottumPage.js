@@ -1,7 +1,7 @@
 import React from "react";
 function BottomPage() {
     return (
-        <div>
+        <div style={{fontSize:"1.1rem" , color:"white"}}>
             <p className="container text-center mt-5" style={{fontSize:"1.1rem" , color:"white"}}>
                 I have a good grip in React.js i have build several project <br></br>
                 using React. I love working in an agile environment and constantly
