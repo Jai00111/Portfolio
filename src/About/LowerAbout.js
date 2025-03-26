@@ -1,7 +1,6 @@
 import CodeIcon from "./CodeIcon";
 import jslogo from "./jslogo.svg"
 import nodejs from "./nodejs.svg"
-import cpp from "./cpp.svg"
 import react from "./react.svg"
 import python from "./python.svg"
 import vs from "./vs.svg"
