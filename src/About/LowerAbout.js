@@ -5,6 +5,10 @@ import react from "./react.svg"
 import python from "./python.svg"
 import vs from "./vs.svg"
 import Mongodb from "./Mongodb.svg"
+import Git from "./git.svg"
+import next from "./next.svg"
+import postman from "./postman.svg"
+import vercel from "./vercel.svg"
 export default function LowerAbout(){
     return(
         <div  style={{ paddingTop: '90px', color: "white", textAlign: "center", fontSize: '1.1rem', marginBottom:"20px" }}>
@@ -25,7 +29,8 @@ export default function LowerAbout(){
                     <CodeIcon codeIcon={react}/>
                     <CodeIcon codeIcon={python}/>
                     <CodeIcon codeIcon={Mongodb}/>
-                    
+                    <CodeIcon codeIcon={Git}/>
+                    <CodeIcon codeIcon={next}/>
 
                     
                 </div>
@@ -33,11 +38,15 @@ export default function LowerAbout(){
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "center",
-                    alignItems: "center"
+                    alignItems: "center",
+                    marginBottom:"50px",
+                     gap: "20px"
                 }}
                 >
                     <h1 className="project-heading" style={{ fontSize: "3rem", marginTop: "50px" }}><strong style={{ color: "#5DB9EE", fontSize: "3rem" }}>Tool </strong>I use</h1>
                     <CodeIcon codeIcon={vs}/>
+                    <CodeIcon codeIcon={postman}/>
+                    <CodeIcon codeIcon={vercel}/>
                     </div>
                 
         </div>
