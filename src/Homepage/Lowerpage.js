@@ -9,8 +9,8 @@ export default function Lowerpage() {
             <div className="firstdiv">
                 <h1 >LET ME <span style={{ color: "#5DB9EE" }}>INTRODUCE</span> MY SELF</h1>
                 <p>I fell in love with programming and I have at least learnt something, I think...🤷‍♂️</p>
-                <p>My field of Interest's are building new<i style={{ color: "#5DB9EE", fontStyle: "italic" }}> Web Technologies and Product</i> and also in areas related to <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>Blockchain.</i> </p>
-                <p>Whether possible, I also apply my passion for developing products with<i style={{ color: "#5DB9EE", fontStyle: "italic" }}> Node.js </i>and <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>Javascript Library and Framework </i>like <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>React.js</i></p>
+                <p>My field of Interest's are building new<i style={{ color: "#5DB9EE", fontStyle: "italic" }}> Web Technologies and Product</i></p>
+                <p>Whether possible, I also apply my passion for developing products with<i style={{ color: "#5DB9EE", fontStyle: "italic" }}> Node.js </i>and <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>Javascript Library and Framework </i>like <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>React.js</i>and <i style={{ color: "#5DB9EE", fontStyle: "italic" }}>Next.js</i></p>
                 
                     <img src={require('./Introduce.png')} alt="" className="image-hover" style={{margin:"40px"}} />
 
