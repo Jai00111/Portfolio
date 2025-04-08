@@ -34,8 +34,9 @@ export default function LowerAbout(){
 
                     
                 </div>
+                <h1 className="project-heading" style={{ fontSize: "3rem", marginTop: "50px" }}><strong style={{ color: "#5DB9EE", fontSize: "3rem" }}>Tool </strong>I use</h1>
                 <div style={{
-                    flexWrap:"wrap",
+                    display:"flex",
                     marginTop: "30px",
                     justifyContent: "center",
                     alignItems: "center",
@@ -43,7 +44,7 @@ export default function LowerAbout(){
                     gap: "20px"
                 }}
                 >
-                    <h1 className="project-heading" style={{ fontSize: "3rem", marginTop: "50px" }}><strong style={{ color: "#5DB9EE", fontSize: "3rem" }}>Tool </strong>I use</h1>
+                   
                     <CodeIcon codeIcon={vs}/>
                     <CodeIcon codeIcon={postman}/>
                     <CodeIcon codeIcon={vercel}/>
