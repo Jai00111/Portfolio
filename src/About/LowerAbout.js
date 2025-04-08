@@ -35,12 +35,12 @@ export default function LowerAbout(){
                     
                 </div>
                 <div style={{
-                    display: "flex",
-                    flexDirection: "column",
+                    flexWrap:"wrap",
+                    marginTop: "30px",
                     justifyContent: "center",
                     alignItems: "center",
                     marginBottom:"50px",
-                     gap: "20px"
+                    gap: "20px"
                 }}
                 >
                     <h1 className="project-heading" style={{ fontSize: "3rem", marginTop: "50px" }}><strong style={{ color: "#5DB9EE", fontSize: "3rem" }}>Tool </strong>I use</h1>
