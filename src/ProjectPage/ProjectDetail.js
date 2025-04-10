@@ -7,6 +7,7 @@ import tictactoe from "./tictactoe.png"
 import ProjectDetailcard from "./ProjectDetailcard";
 import weatherApp from "./WeatherApp.png"
 import NewsBuzz from "./newsbuzz.png"
+import Article from "./ArticleZone.png"
 function ProjectDetails() {
     return (
         <div
@@ -19,6 +20,7 @@ function ProjectDetails() {
             <ProjectDetailcard ProjectImage={tictactoe} ProjectName={"Tic-Tac-toe"} Projectdetail={"Tic Tac Toe is a classic multiplayer game played between two players. The game consists of a 3x3 grid, where players take turns placing X and O symbols. The player who gets three of their symbols in a row, column, or diagonal wins the game.This game is designed by  using HTML, CSS, and JS only."} gitUrl={"https://github.com/Jai00111/Tic-Tac-Toe"} />
             <ProjectDetailcard ProjectImage={weatherApp} ProjectName={"Weather-Forecast"} Projectdetail={"Utilized OpenWeatherMap API for accurate weather data.Designed with dynamic background images reflecting current weather conditions. The Weather Forecast website providing real-time weather updates,temperature, humidity, and weather."} gitUrl={"https://github.com/Jai00111/Weather-Forecast"} />
             <ProjectDetailcard ProjectImage={NewsBuzz} ProjectName={"News-Buzz"} Projectdetail={"My news website is a simple and easy-to-use platform that provides the latest news and updates. I built it to share news and information with others. The website features a clean design and is easy to navigate. In this website we can watch and read the latest news about sports, technologies, science, health, bussiness, general, and entertainment too, I used news api to get the news and gained more knowledge about api's . "} gitUrl={"https://github.com/Jai00111/NewsBuzz"} />
+            <ProjectDetailcard ProjectImage={Article} ProjectName={"Article-Zone"} Projectdetail={"I developed a full-stack article website that  allows users to read, update, delete, and post their own articles. The website features a user-friendly interface. I used Html, CSS, JavaScript, MU, MongoDb Atlas, and Next.js for development."} gitUrl={"https://github.com/Jai00111/ArticleZon"} />
         
             </div>
     );
